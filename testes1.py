@@ -70,8 +70,59 @@
 # print(f"A média dos números digitados é : {media}")
 
 #Exercicio 5 Pedir dois numeros um é a base e o outro é o expoente e calcular a potência da base
-base=int(input("Digite seu número de base por favor: "))
-expoente=int(input("Digite o seu expoente por gentileza: "))
-potencia=(base**expoente)
-print(f"A potencia de sua base {base} elevada a {expoente} é {potencia} . ")
+# base=int(input("Digite seu número de base por favor: "))
+# expoente=int(input("Digite o seu expoente por gentileza: "))
+# potencia=(base**expoente)
+# print(f"A potencia de sua base {base} elevada a {expoente} é {potencia} . ")
+
+#                           *******Manipulação de Strings******
+
+# Exericio 1 Pedir o usuario uma string e o codigo inverte
+# Definindo a palavra que o usuário vai digitar
+# palavra = input("Digite uma palavra por gentileza: ")
+# # Inicializando a variável que vai guardar a palavra invertida
+# novapalavra = ""
+# # Percorrendo cada letra da palavra original
+# for letra in palavra:
+#     # Adicionando a letra no início da nova palavra
+#     novapalavra = letra + novapalavra
+# # Exibindo o resultado final
+# print("Palavra invertida:", novapalavra)
+#-------------------------------------------------------------------------------
+
+
+# #Exercicio 2 Pedir ao usuario uma palavra e informar o numero de letras
+# palavra=input("Digite uma palavra por gentileza: ") 
+# numerodeletras=(len(palavra))
+# print(f"A palavra '{palavra}' tem {numerodeletras} letras.")
+#----------------------------------------------------------------------------------------
+
+#Exercicio 3 ERRO AINDA NÃO RODA NORMAL FALTA ALGUMA COISA 
+#palidromo quando a palavra e lida de frente pra tras e vice versa não muda
+# palavra0=input("Digite sua palavra")
+# print(f"A sua palavra digitada é : {palavra0}")
+# palavra1=""
+# for letra in palavra0:
+# palavra1 = letra+palavra0
+
+# if palavra0==palavra1:
+#     print(f"A sua palavra{palavra0} é um palidromo")
+# else:
+#     print(f"A palavra digitada {palavra0} não é um palidromo")
+#---------------------------------------------------------------------------------------------------
+
+# #Exercicio 4 Pedir ao usuario uma frase e pedir pra alterar uma palavra especifica por outra
+# frase=input("Digite sua frase por gentileza: ")
+# print(frase)
+# frase2=frase.replace("bonito","Abacaxi")
+# print(frase2)
+#-------------------------------------------------------------------------------------------------------
+
+#Exercicio 5 Dadas duas palavras verificar se uma é anagrama da outra
+palavra1=input("Digite a primeira palavra: ")
+print(palavra1)
+palavra2=input("Digite a segunda palavra: ")
+print(palavra2)
+
+if palavra1==palavra2
 
