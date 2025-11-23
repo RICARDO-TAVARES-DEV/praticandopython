@@ -120,14 +120,20 @@
 # print(frase2)
 #--------------------------------------------------------------------------------------------------
 #Exercicio 23 Receba uma frase e mostre a primeira palavra.
-frase=input("Digite sua frase: ")#aqui eu peço ao usuário uma frase
-frase1=frase.replace(" ","")#Eu utilizei o metodo Replace para retirar os espaços em branco e ficar 
-#somente com as strings da frase
-frase2=(frase1[0:2])#Aqui eu com o conjunto de strings ficou facil em usar a indexação, que é 
-#processo de acessar elementos individuais em uma sequência (como strings, listas e tuplas) usando sua posição numérica, começando sempre do 0 para o primeiro elemento. É realizada usando colchetes [] 
-print(frase2)
+# frase=input("Digite sua frase: ")#aqui eu peço ao usuário uma frase
+# frase1=frase.replace(" ","")#Eu utilizei o metodo Replace para retirar os espaços em branco e ficar 
+# #somente com as strings da frase
+# frase2=(frase1[0:2])#Aqui eu com o conjunto de strings ficou facil em usar a indexação, que é 
+# #processo de acessar elementos individuais em uma sequência (como strings, listas e tuplas) usando sua posição numérica, começando sempre do 0 para o primeiro elemento. É realizada usando colchetes [] 
+# print(frase2)
 #--------------------------------------------------------------------------------------------------
-#Exercicio 24 
+#Exercicio 24 Receba uma frase e mostre a última palavra. 
+frase=input("Digite sua frase: ")
+frase1=(frase.rsplit(" ",1))
+frase2=frase1[1]
+print(frase2)
+
+
 
 
 
