@@ -75,43 +75,64 @@
 # #--------------------------------------------------------------------
 # #Exercicio 15  Receba um número e mostre se é igual a 100. 
 # num1=int(input("Digite seu número: "))
-# if num1==100:
+# if num1==100:#Aqui eu utilizei a condicional IF para verificar se o número digitado é igual(==)
 #     print(f"Esse {num1} é igual a 100.")
 # else:
 #     print(f"Esse {num1} não é igual a 100.")
 # #---------------------------------------------------------------------
 # #Exercicio 16 Receba um número e mostre se é diferente de 50. 
 # num1=int(input("Digite um número :"))
-# if num1!=50:
+# if num1!=50: #Aqui eu utilizei a condicional IF para verificar se o número digitado é diferente(!=)
 #     print(f"Esse {num1} é diferente de 50.")
 # else:
 #     print(f"Esse {num1} é igual a 50.")
 #---------------------------------------------------------------------
 # #Exercicio 17  Receba uma palavra e mostre em minúsculas. 
 # palavra=input("Digite uma palavra: ")
-# palavramenor=palavra.lower()
+# palavramenor=palavra.lower()#O metodo LOWER é usado para colocar todas as strings em minusculas
 # print(palavramenor)
 # #----------------------------------------------------------------
 # #Exercicio 18 Receba uma palavra e mostre em maiúsculas. 
 # palavra=input("Digite sua palavra: ")
-# palavramaior=palavra.upper()
+# palavramaior=palavra.upper()#O metodo de string UPPER e usado para colocar todas as strings em #maiuscula.
 # print(palavramaior)
 #--------------------------------------------------------------
 #Exercicio 19 Receba uma palavra e mostre a primeira letra. 
 # palavra=input("Digite uma palavra: ")
-# letra1=palavra[0]
+# letra1=palavra[0]#Eu aqui utilizei a indexação , ou seja ao colocar colchete apos a variavel eu estou #indicando que eu desejo mostrar a posição de um determinado caracter começando sempre pelo zero.
 # print(letra1)
 #--------------------------------------------------------------
 #Exercicio 20 Receba uma palavra e mostre a última letra. 
 # palavra=input("Digite sua palavra: ")
-# letra2=palavra[9]
+# letra2=palavra[9]#Ao usar a indexação, que é processo de acessar elementos individuais em uma sequência #(como strings, listas e tuplas) usando sua posição numérica, começando sempre do 0 para o primeiro #elemento. É realizada usando colchetes [] 
 # print(letra2)
 # #-----------------------------------------------------------
 #Exercicio  21 Receba uma palavra e mostre o número de caracteres. 
-palavra=input("Digite sua palavra: ")
-letra=len(palavra)
-print(letra)
+# palavra=input("Digite sua palavra: ")
+# letra=len(palavra)#aqui o len ele confere o número de caracteres na string.
+# print(letra)
 #-------------------------------------------------------------------
+#Exercicio 22 Receba uma frase e mostre quantas palavras tem. 
+# frase=input("Digite uma frase: ")
+# frase1=frase.replace(" ","")#ele remove os espaços em branco na frase e como ele pediu somente a 
+# #a quantidade de letras eu precisei utilizar o metodo replace(" ","")
+# frase2=len(frase1)#Aqui eu so precisei utilizar o len para constatar o número de letras na frase toda
+# print(frase2)
+#--------------------------------------------------------------------------------------------------
+#Exercicio 23 Receba uma frase e mostre a primeira palavra.
+frase=input("Digite sua frase: ")#aqui eu peço ao usuário uma frase
+frase1=frase.replace(" ","")#Eu utilizei o metodo Replace para retirar os espaços em branco e ficar 
+#somente com as strings da frase
+frase2=(frase1[0:2])#Aqui eu com o conjunto de strings ficou facil em usar a indexação, que é 
+#processo de acessar elementos individuais em uma sequência (como strings, listas e tuplas) usando sua posição numérica, começando sempre do 0 para o primeiro elemento. É realizada usando colchetes [] 
+print(frase2)
+#--------------------------------------------------------------------------------------------------
+#Exercicio 24 
+
+
+
+
+
 
 
         
